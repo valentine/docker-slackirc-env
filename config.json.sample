@@ -1,0 +1,14 @@
+[
+  {
+    "nickname": "ENV-NICK",
+    "server": "ENV-SERVER",
+    "token": "ENV-TOKEN",
+    "autoSendCommands": [
+      ["PRIVMSG", "NickServ", "IDENTIFY ENV-BOTNICK ENV-BOTPASSWD"]
+    ],
+    "channelMapping": {
+      "ENV-SLACKCHAN": "ENV-IRCCHAN"
+    },
+    "commandCharacters": ["!", "."]
+  }
+]
