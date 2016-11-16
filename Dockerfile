@@ -9,7 +9,7 @@ ENV USER=root \
     HOME=/tmp
 
 RUN apk add --update \
-    nodejs \
+    nodejs-lts \
 # dependencies for node-gyp
     python \
     make \
