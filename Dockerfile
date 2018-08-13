@@ -1,6 +1,6 @@
 # Copyright 2016 Valentine C
 
-FROM justcontainers/base-alpine
+FROM woahbase/alpine-s6
 
 MAINTAINER Valentine C
 
@@ -9,7 +9,7 @@ ENV USER=root \
     HOME=/tmp
 
 RUN apk add --update \
-    nodejs-lts \
+    npm \
 # dependencies for node-gyp
     python \
     make \
